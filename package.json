@@ -1,0 +1,28 @@
+{
+  "name": "react-native-atoz-listview",
+  "version": "0.0.7",
+  "description": "A Listview with a sidebar to jump to sections directly, based on sunnylqm's react-native-alphabetlistview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crabstudio/react-native-atoz-listview.git"
+  },
+  "author": "Johannes Lumpe <johannes@lum.pe> (https://github.com/johanneslumpe), sunnylqm <sunnylqm@qq.com> (https://github.com/sunnylqm), Kenton Jacobsen (https://github.com/brokentone), Anh Tuan Nguyen <anhtuank7c@hotmail.com> (https://github.com/anhtuank7c)",
+  "license": "MIT",
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "dependencies": {
+    "merge": "^1.2.0",
+    "prop-types": "^15.5.10"
+  },
+  "devDependencies": {
+    "eslint-config-rallycoding": "^3.2.0"
+  }
+}
