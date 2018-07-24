@@ -121,7 +121,9 @@ export default class SelectableSectionsListView extends React.PureComponent {
       y += numcells * rowHeight + sectionHeaderHeight;
       const maxY = this.totalHeight - (this.containerHeight + headerHeight);
       y = y > maxY ? maxY : y;
-
+      if( y < 0 ) {
+        y = 0;
+        }
       this.refs.listview.scrollTo({ x: 0, y, animated: true });
     } else {
       UIManager.measureLayout(
